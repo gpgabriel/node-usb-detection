@@ -74,6 +74,7 @@ void Start() {
 }
 
 void Stop() {
+    quit = true;
 	isRunning = false;
 }
 
